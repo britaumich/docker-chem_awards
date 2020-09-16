@@ -1,0 +1,2486 @@
+html,body {
+	margin: 0px;
+	padding: 0px; 
+}
+
+body {
+	font: 76% arial,sans-serif;
+	text-align: center; 
+	color: #071b2a;
+	background: url(images/bk.jpg);
+	background-repeat: repeat-x repeat-y;
+}
+
+blockquote {
+	background: #d4d1ce;
+	background-image: url(images/blockquotetop.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #3d3d3d;
+	border: 1px solid #969488;
+	padding: 10px;
+}
+
+p { 
+ 	margin: 0px 15px 0px 10px;
+}
+
+a:link {
+	color: #334752;
+	text-decoration: underline;
+	outline: none;
+}
+a:visited {
+	color: #334752;
+	text-decoration: underline;
+	outline: none;
+}
+a:hover, a:active {
+	color: #ab944b;
+	text-decoration: underline;
+	outline: none;
+}
+
+
+/* top */
+div.topbanner {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background: #b8a86f;
+	background: url(images/topbarbk.jpg);
+	background-repeat: repeat-x;
+	height: 154px;
+
+}
+
+div.topbar {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+
+}
+
+.topbarleft {
+	position: relative;
+	right: 0px;
+	top: 5px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.topbarright {
+	position: relative;
+	right: 0px;
+	top: -9px;
+	text-align: right;
+	padding-right: 10px;
+}
+.topbarnav {
+}
+
+a:link.topbarnav {
+	color: #fff;
+	text-decoration: NONE;
+}
+a:visited.topbarnav {
+	color: #fff;
+	text-decoration: NONE;
+}
+a:hover.topbarnav, a:active.topbarnav {
+	color: #c9b045;
+	text-decoration: underline;
+}
+
+/* end top */
+
+
+div.container {
+	position: relative;
+	left: 0px;
+	top: -12px;
+	*top: -16px;
+	text-align: left;
+	width: 950px;
+	margin: 0px auto;
+	background: url(images/contentbk.jpg);
+	background-repeat: repeat-y;
+}
+
+div.allcontent { 
+	float: left;
+	width: 760px;
+	*width: 770px; /* ie */
+	padding-left: 10px;
+
+}
+
+/* Side Bar */
+div.sidebar {
+	position: relative;
+	left: 10px;
+	top: 0px;
+	float: left;
+	width: 155px;
+	margin-right: 10px;
+}
+
+.sidebarinfo {
+	position: relative;
+	left: 0px;
+	*top: -9px;
+	border: 1px solid #d3b74e;
+	background: #a2977f;
+	color: #071b2a;
+}
+
+.search {
+	position: relative;
+	left: 2px;
+	top: 0px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 10px;
+	color: #000;
+	background: #283845;
+}
+/* End Side Bar */
+
+
+div.wrapper {
+
+}
+
+.wordmark {
+	background: #CCC;
+	margin-top: 3px;
+	*margin-top: 0px;
+}
+
+/* body */
+.content {
+	line-height: 1.4;
+	background: url(images/bodybk.jpg);
+	background-repeat: repeat-y;
+	padding-left: 10px;
+	*margin-bottom: -3px; 
+	padding-bottom: 3px;
+}
+
+.contentbk {
+	clear: both;
+}
+
+
+/* end body */
+
+.clear {
+	clear: both;
+}
+
+
+div.footer {
+	width: 754px;	
+	height: 70px;
+	background: #192b3a;
+	background-image: url(images/footerbk.jpg);
+	font-size: 10px;
+	color: #ada696;
+	border: 1px solid #4e6374;
+	margin-left: 4px;
+	margin-top: 10px;
+}
+
+div.footer p {
+	margin: 2px 0px 0px 0px;
+}
+
+.footerleft {
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+}
+
+
+.footermid {
+	float: left;
+	padding-left: 60px;
+}
+
+.footerright {
+	float: right;
+	padding-right: 14px;
+	padding-top: 0px;
+	text-align: right;
+}
+
+.footer a:link {
+	color: #9c8e69;
+	text-decoration: none;
+	border: none;
+	padding: 0px;
+}
+
+.footer a:visited {
+	color: #9c8e69;
+}
+
+.footer a:hover, a:active {
+	color: #d0bd6e;
+	text-decoration: underline;
+}
+
+/* FP */
+.updatedwrap {
+}
+
+.fplink {
+}
+
+a:link.fplink {
+	color: #c9b045;
+	text-decoration: underline;
+}
+a:visited.fplink {
+	color: #c9b045;
+	text-decoration: underline;
+}
+a:hover.fplink, a:active.fplink {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.updatecontent {
+	float: left;
+}
+
+.newsbox {
+	background-image: url(images/fpnewsbk.jpg);
+	background-repeat: repeat-y;
+}
+
+.newscontent {
+	position: relative;
+	left: -1px;
+	top: 0px;
+	background-image: url(images/fpnewstitle.jpg); 
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.newscontentinside {
+	position: relative;
+	left: 15px;
+	top: 0px;
+	width: 340px;
+	padding-top: 30px;
+}
+
+.pubbox {
+	background-image: url(images/fppubbk.jpg);
+	background-repeat: repeat-y;
+}
+
+.pubcontent {
+	position: relative;
+	left: 1px;
+	top: 0px;
+	background-image: url(images/fppubtitle.jpg); 
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.pubcontentinside {
+	position: relative;
+	left: 15px;
+	top: 0px;
+	width: 340px;
+	padding-top: 30px;
+}
+
+.updatecontent a:link {
+	color: #2b3b4b;
+	text-decoration: none;
+	border-bottom: 1px solid #2b3b4b;
+}
+
+.updatecontent a:visited {
+	color: #2b3b4b;
+	text-decoration: none;
+	border-bottom: 1px solid #2b3b4b;
+}
+
+.updatecontent a:hover, a:active {
+	color: #9c8e69;
+	text-decoration: none;
+}
+
+/* end FP */
+
+.imgfloatleft {
+	float: left;
+	padding-right: 5px;
+}
+
+.sidenavinfo a:link {
+	color: #9c8e69;
+	text-decoration: none;
+	border: none;
+	padding: 0px;
+}
+
+.sidenavinfo a:visited {
+	color: #9c8e69;
+	border: none;
+	padding: 0px;
+}
+
+.sidenavinfo a:hover, a:active {
+	color: #d0bd6e;
+	text-decoration: underline;
+}
+
+/*** Top Nav ***/
+div#mainnav {
+	position: relative;
+	left: 59px;
+	*left: 61px;
+	top: -14px;
+	*top: -17px;
+	text-align: left;
+	width: 630px;
+	margin: 0px auto;
+}
+
+div#mainnav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+div#mainnav li {
+	margin-top: -8px;
+	text-align: left;
+	float: left;
+	z-index: 10;
+}
+
+div#mainnav a {
+	display: block;
+	width: 625px;
+	height: 24px;
+	margin: 0 auto;/* */
+	text-indent: -5000px;/* */
+	line-height: 0;/* */
+	background-image: url(images/topnav.jpg);
+	background-repeat: no-repeat;
+	outline: none;
+
+}
+
+
+div#mainnav a#navhome {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-position: 0px 0px;
+	width: 77px;
+}
+
+div#mainnav a#navhomehere {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 23px;
+	background-position: 0px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330; 
+	width: 77px;
+}
+
+div#mainnav a#navhome:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: 0px -52px;
+}
+
+div#mainnav a#navundergrad {	
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-position: -77px 0px;
+	width: 98px;
+}
+div#mainnav a#navundergradhere {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 23px;
+	background-position: -77px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330; 
+	width: 98px;
+
+}
+div#mainnav a#navundergrad:hover {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -77px -52px;
+}
+
+
+div#mainnav a#navgrad {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-position: -174px 0px;
+	width: 88px;
+}
+div#mainnav a#navgradhere {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 23px;
+	background-position: -174px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330; 
+	width: 88px;
+}
+div#mainnav a#navgrad:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -174px -52px;
+}
+
+div#mainnav a#navpeople {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	background-position: -261px 0px;
+	width: 66px;
+}
+div#mainnav a#navpeoplehere {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 23px;
+	width: 66px;
+	background-position: -261px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330; 
+}
+div#mainnav a#navpeople:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -261px -52px;
+}
+
+div#mainnav a#navresearch {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	background-position: -327px 0px;
+	width: 90px;
+}
+div#mainnav a#navresearchhere {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	height: 23px;
+	width: 90px;
+	background-position: -327px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330; 
+}
+div#mainnav a#navresearch:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -327px -52px;
+}
+
+div#mainnav a#navalumni {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	background-position: -417px 0px;
+	width: 82px;
+}
+div#mainnav a#navalumnihere {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	height: 23px;
+	width: 82px;
+	background-position: -417px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330;
+}
+div#mainnav a#navalumni:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -417px -52px;
+}
+
+div#mainnav a#navdeptinfo {
+	position: relative;
+	left: 0px;
+	top: 0px;	
+	background-position: -497px 0px;
+	width: 128px;
+}
+div#mainnav a#navdeptinfohere {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 23px;
+	width: 128px;
+	background-position: -497px -24px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 0px solid #152330;
+}
+div#mainnav a#navdeptinfo:hover {
+	height: 23px;
+	border-bottom: 1px solid #4e6472;
+	*border-bottom: 1px solid #152330; 
+	background-position: -497px -52px;
+}
+/*** end Top Nav ***/
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Garamond, sans-serif;
+	font-size: 36px;
+	color: #071b2a;
+	font-weight: normal;
+	line-height: 28px;
+	background-image: url("images/bodyh1underline.jpg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Garamond, sans-serif;
+	font-size:  26px;
+	color: #071b2a;
+	font-weight: normal;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 20px;
+	color: #071b2a;
+	font-weight: normal;
+}
+
+div.updatecontenttitles  {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 24px;
+	color: #293946;
+	padding: 0px;
+	margin: 0px;
+	line-height: 22px;
+}
+
+div.updatepubtitles  {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 20px;
+	color: #293946;
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.padleft10
+{
+	padding-left: 10px;
+}
+
+
+.breadcrumbs, a:link.breadcrumbs {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 10px;
+	color: #8f8164;
+	text-decoration: none;
+}
+
+a:visited.breadcrumbs
+{
+	color: #8f8164;
+	text-decoration: none;
+}
+
+a:hover.breadcrumbs, a:active.breadcrumbs
+{
+	color: #071b2a;
+	text-decoration: underline;
+	
+}
+
+/* Flash */
+
+.flash  {
+	position: relative;
+	left: -8px;
+	top: 0px;
+}
+
+
+#flashcontent {
+	text-align: center;
+}
+
+.flashfloatleft {
+	position: relative;
+	left: 23px;
+	top: 0px;
+	height: 100px;
+	width: 30px;
+	background-image: url("images/bkflash.jpg");
+	background-repeat: repeat-y repeat-x;
+	float: left;
+}
+
+.flashfloatright {
+	position: relative;
+	left: -20px;
+	top: 0px;
+	height: 100px;
+	width: 30px;
+	background-image: url("images/bkflashr.jpg");
+	background-repeat: repeat-y repeat-x;
+	float: right;
+}
+
+.fppicbarpadgenpub { 
+	padding-left: 20px;
+	padding-right: 1px;
+	float: left;
+}
+
+.fppicbarpadgenpubcontain {
+	background: #FFF;
+	height: 100px;
+	width: 650px;
+	margin-left: 50px;
+
+}
+
+/* End Flash */
+
+.sidenavinfo {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 11px;
+	color: #cfc9bd;
+	background: #192a38;
+	padding: 2px 4px 4px 6px;
+	*margin-top: -3px;
+	border: 1px solid #0d202e;
+}	
+
+
+
+/*** Side Nav ***/
+.sidenavcontainer {
+	width: 155px;
+	margin: 0px;
+	background: #06141f;
+}
+
+div#sidenav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+div#sidenav li {
+	float: left;
+}
+
+div#sidenav ul li a {
+	display: block;
+	width: 155px;
+	height: 27px;
+	margin: 0px;
+	text-indent: -5000px;
+	line-height: 0;
+	padding: 0px;
+	background-image: url("images/sidenav.jpg");
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+/* Undergrad */
+div#sidenav  a#sidenavundergradcon { 
+	background-position: 0px 0px;
+}
+div#sidenav  a#sidenavundergradcon:hover {
+	background-position: 0px -27px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavundergradconhere {
+	background-position: 0px -27px;
+}
+div#sidenav  a#sidenavundergradcourseinfo {
+	background-position: -156px 0px;
+}
+div#sidenav  a#sidenavundergradcourseinfo:hover {
+	background-position: -156px -27px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavundergradcourseinfohere {
+	background-position: -156px -27px;
+}
+div#sidenav  a#sidenavundergradwolvaccess {
+	background-position: -311px 0px;
+} 
+div#sidenav  a#sidenavundergradwolvaccess:hover {
+	background-position: -311px -27px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+} 
+div#sidenav  a#sidenavundergradwolvaccesshere {
+	background-position: -311px -27px;
+}
+
+/* Grad */
+div#sidenav  a#sidenavgradphd { 
+	background-position: 0px -60px;
+}
+div#sidenav  a#sidenavgradphd:hover {
+	background-position: 0px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradphdhere {
+	background-position: 0px -87px;
+}
+div#sidenav  a#sidenavgradapply { 
+	background-position: -156px -60px;
+}
+div#sidenav  a#sidenavgradapply:hover {
+	background-position: -156px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradapplyhere {
+	background-position: -156px -87px;
+}
+div#sidenav  a#sidenavgradlife { 
+	background-position: -311px -60px;
+}
+div#sidenav  a#sidenavgradlife:hover {
+	background-position: -311px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradlifehere {
+	background-position: -311px -87px;
+}
+div#sidenav  a#sidenavgradmasters { 
+	background-position: -467px -60px;
+}
+div#sidenav  a#sidenavgradmasters:hover {
+	background-position: -467px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradmastershere {
+	background-position: -467px -87px;
+}
+div#sidenav  a#sidenavgradcurrentstudents { 
+	background-position: -623px -60px;
+}
+div#sidenav  a#sidenavgradcurrentstudents:hover {
+	background-position: -623px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradcurrentstudentshere {
+	background-position: -623px -87px;
+}
+div#sidenav  a#sidenavgradpathwaymasters { 
+	background-position: -781px  -60px;
+}
+div#sidenav  a#sidenavgradpathwaymasters:hover {
+	background-position: -781px -87px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgradpathwaymastershere {
+	background-position: -781px -87px;
+}
+
+
+/* People */
+div#sidenav  a#sidenavpplfac { 
+	background-position: 0px -120px;
+}
+div#sidenav  a#sidenavpplfac:hover {
+	background-position: 0px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplfachere {
+	background-position: 0px -147px;
+}
+div#sidenav  a#sidenavpplgrad { 
+	background-position: -156px -120px;
+}
+div#sidenav  a#sidenavpplgrad:hover {
+	background-position: -156px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplgradhere {
+	background-position:  -156px -147px;
+}
+div#sidenav  a#sidenavpplchair { 
+	background-position: -311px -120px;
+}
+div#sidenav  a#sidenavpplchair:hover {
+	background-position: -311px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplchairhere {
+	background-position:  -311px -147px;
+}
+div#sidenav  a#sidenavpplstaff { 
+	background-position: -466px -120px;
+}
+div#sidenav  a#sidenavpplstaff:hover {
+	background-position: -466px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplstaffhere {
+	background-position:  -466px -147px;
+}
+div#sidenav  a#sidenavpplallppl { 
+	background-position: -780px -120px;
+}
+div#sidenav  a#sidenavpplallppl:hover {
+	background-position: -780px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplallpplhere {
+	background-position:  -780px -147px;
+}
+div#sidenav  a#sidenavpplemdir { 
+	background-position: -622 -120px;
+}
+div#sidenav  a#sidenavpplemdir:hover {
+	background-position: -622px -147px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavpplemdirhere {
+	background-position:  -622px -147px;
+}
+
+/* Research */
+div#sidenav  a#sidenavresearchaof { 
+	height: 22px;
+	width: 155px;
+	background-position: 0px -184px;
+}
+div#sidenav  a#sidenavresearchaof:hover {
+	height: 22px;
+	width: 155px;
+	background-position: 0px -211px;
+}
+div#sidenav  a#sidenavresearchaofhere {
+	height: 22px;
+	width: 155px;
+	background-position: 0px -211px;
+}
+div#sidenav  a#sidenavresearchresint { 
+	background-position: -156px -181px;
+}
+div#sidenav  a#sidenavresearchresint:hover {
+	background-position: -156px -209px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavresearchresinthere {
+	background-position: -156px -209px;
+}
+div#sidenav  a#sidenavresearchlabs { 
+	background-position: -311px -183px;
+}
+div#sidenav  a#sidenavresearchlabs:hover {
+	background-position: -311px -210px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavresearchlabshere {
+	background-position: -311px -210px;
+}
+div#sidenav  a#sidenavresfacdir { 
+	background-position: -466px -183px;
+}
+div#sidenav  a#sidenavresfacdir:hover {
+	background-position: -466px -210px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavresfacdirhere {
+	background-position: -466px -210px;
+}
+div#sidenav  a#sidenavgeneralpublic { 
+	background-position: -622px -183px;
+}
+div#sidenav  a#sidenavgeneralpublic:hover {
+	background-position: -622px -210px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavgeneralpublichere {
+	background-position: -622px -210px;
+}
+/* Alumni */
+div#sidenav  a#sidenavalumnidirectory { 
+	background-position: 0px -245px;
+}
+div#sidenav  a#sidenavalumnidirectory:hover {
+	background-position: 0px -272px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavalumnidirectoryhere {
+	background-position: 0px -272px;
+}
+div#sidenav  a#sidenavalumninewsletter { 
+	background-position: -156px  -245px;
+}
+div#sidenav  a#sidenavalumninewsletter:hover {
+	background-position: -156px  -272px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavalumninewsletterhere {
+	background-position: -156px  -272px;
+}
+div#sidenav  a#sidenavalumninews { 
+	background-position: -311px  -245px;
+}
+div#sidenav  a#sidenavalumninews:hover {
+	background-position: -311px  -272px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavalumninewshere {
+	background-position: -311px  -272px;
+}
+div#sidenav  a#sidenavalumnidonation { 
+	background-position: -466px  -245px;
+}
+div#sidenav  a#sidenavalumnidonation:hover {
+	background-position: -466px  -272px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavalumnidonationhere {
+	background-position: -466px  -272px;
+}
+div#sidenav  a#sidenavalumniendowment { 
+	background-position: -622px  -245px;
+}
+div#sidenav  a#sidenavalumniendowment:hover {
+	background-position: -622px  -272px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavalumniendowmenthere {
+	background-position: -622px  -272px;
+}
+/*Dept Info */
+div#sidenav  a#sidenavdeptinfoevents { 
+	background-position: 0px  -305px;
+}
+div#sidenav  a#sidenavdeptinfoevents:hover {
+	background-position: 0px  -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavdeptinfoeventshere {
+	background-position: 0px  -333px;
+}
+
+div#sidenav  a#sidenavdeptinfogeninfo { 
+	background-position: -156px  -305px;
+}
+div#sidenav a#sidenavdeptinfogeninfo:hover {
+	background-position: -156px -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav a#sidenavdeptinfogeninfohere {
+	background-position: -156px  -333px;
+}
+
+
+div#sidenav  a#sidenavdeptinfofacilities { 
+	background-position: -780px  -305px;
+}
+div#sidenav a#sidenavdeptinfofacilities:hover {
+	background-position: -780px -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav a#sidenavdeptinfofacilitieshere {
+	background-position: -780px -333px;
+}
+
+div#sidenav  a#sidenavdeptinfosupport { 
+	background-position: -311px   -305px;
+}
+div#sidenav  a#sidenavdeptinfosupport:hover {
+	background-position: -311px  -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavdeptinfosupporthere {
+	background-position:  -311px   -333px;
+}
+div#sidenav  a#sidenavdeptinfopolicies { 
+	background-position: -467px  -305px;
+}
+div#sidenav  a#sidenavdeptinfopolicies:hover {
+	background-position: -467px  -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavdeptinfopolicieshere {
+	background-position:  -467px   -333px;
+}
+div#sidenav  a#sidenavdeptinfonews { 
+	background-position: -622px  -305px;
+}
+div#sidenav  a#sidenavdeptinfonews:hover {
+	background-position: -622px  -333px;
+	height: 27px;
+	*border-bottom: 1px solid #06141f; 
+}
+div#sidenav  a#sidenavdeptinfonewshere {
+	background-position:  -622px   -333px;
+}
+
+div#sidenavlevel2
+{		
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+div#sidenavlevel2 ul {
+	list-style-type: none;
+}
+div#sidenavlevel2 ul li {
+	list-style-type: none;
+}
+div#sidenavlevel2researchareasoffocus ul li a {
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsideresearch.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2gradphd ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradphd.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2gradapply ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradpros.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2gradlife ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradlife.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2masters ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradmasters.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2currentstudents ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradcurrentstudents.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2pathwaymasters ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidegradpathwaymasters.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2peoplefac ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidepeoplefaculty.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2peoplestaff ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidepeoplestaff.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2alumniendowments ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidealumniendowments.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2alumnienewsletter ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidealumnienewsletter.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+
+div#sidenavlevel2deptinfophoto ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfophoto.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2deptinfogen ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfogeninfo.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2deptinfofacilities ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfofacilities.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+
+div#sidenavlevel2deptinfofac li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfofacilities.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2deptinfosupport ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfosupport.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenavlevel2deptinfopolices ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfopandp.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+div#sidenavlevel2deptinfonews ul li a {
+	position: relative;
+	left: 0px;
+	top: -4px;
+	display: block;
+	height: 21px;
+	background-image: url(images/sidenavinsidedeptinfonews.jpg);
+	background-repeat: no-repeat;
+	*margin-bottom: -4px;
+}
+
+div#sidenav ul li a#level2first {
+	background-position: 1px -1px;
+}
+div#sidenav ul li a#level2first:hover {
+	background-position: -159px -1px;
+}
+div#sidenav ul li a#level2second {
+	background-position: 1px -31px;
+}
+div#sidenav ul li a#level2second:hover {
+	background-position: -159px -31px;
+}
+div#sidenav ul li a#level2third {
+background-position: 1px -60px;
+}
+div#sidenav ul li a#level2third:hover {
+	background-position: -159px -60px;
+}
+div#sidenav ul li a#level2fourth {
+	background-position: 1px -90px;
+}
+div#sidenav ul li a#level2fourth:hover {
+	background-position:  -159px -90px;
+}
+div#sidenav ul li a#level2fifth {
+	background-position: 1px -120px;
+}
+div#sidenav ul li a#level2fifth:hover {
+	background-position: -159px -120px;
+}
+div#sidenav ul li a#level2sixth {
+	background-position: 1px -150px;
+}
+div#sidenav ul li a#level2sixth:hover {
+	background-position: -159px -150px;
+}
+div#sidenav ul li a#level2seventh {
+	background-position: 1px -179px;
+}
+div#sidenav ul li a#level2seventh:hover {
+	background-position: -159px -179px;
+}
+div#sidenav ul li a#level2eighth {
+	background-position: 1px -206px;
+}
+div#sidenav ul li a#level2eighth:hover {
+	background-position: -159px -206px;
+}
+div#sidenav ul li a#level2ninth {
+	background-position: 1px -236px;
+}
+div#sidenav ul li a#level2ninth:hover {
+	background-position: -159px -236px;
+}
+div#sidenav ul li a#level2tenth {
+	background-position: 1px -267px;
+}
+div#sidenav ul li a#level2tenth:hover {
+	background-position: -159px -267px;
+}
+div#sidenav ul li a#level2eleventh {
+	background-position: 1px -297px;
+}
+div#sidenav ul li a#level2eleventh:hover {
+	background-position: -159px -297px;
+}
+div#sidenav ul li a#level2twelveth {
+	background-position: 1px -327px;
+}
+div#sidenav ul li a#level2twelveth:hover {
+	background-position: -159px -327px;
+}
+div#sidenav ul li a#level2firsthere {
+	background-position: -319px -1px;
+}
+div#sidenav ul li a#level2secondhere {
+	background-position: -319px -31px;
+}
+div#sidenav ul li a#level2thirdhere {
+	background-position: -319px -60px;
+}
+div#sidenav ul li a#level2fourthhere {
+	background-position: -319px -90px;
+}
+div#sidenav ul li a#level2fifthhere {
+	background-position: -319px -120px;
+}
+div#sidenav ul li a#level2sixthhere {
+	background-position: -319px -150px;
+}
+div#sidenav ul li a#level2seventhhere {
+	background-position: -319px -179px;
+}
+div#sidenav ul li a#level2eighthhere {
+	background-position: -319px -206px;
+}
+div#sidenav ul li a#level2ninthhere {
+	background-position: -319px -236px;
+}
+div#sidenav ul li a#level2tenthhere {
+	background-position: -319px -267px;
+}
+div#sidenav ul li a#level2eleventhhere {
+	background-position: -319px -297px;
+}
+div#sidenav ul li a#level2twelvethhere {
+	background-position: -319px -327px;
+}
+
+.QandAbutton {
+	position: relative;
+	left: 0px;
+	top: 15px;
+	width: 155px;
+	float: left;
+}
+
+
+.facrecruitbutton {
+	position: relative;
+	left: 0px;
+	top: 20px;
+	width: 155px;
+	float: left;
+}
+
+
+.fpgiveonline {
+	position: relative;
+	left: 5px;
+	top: 50px;
+	width: 145px;
+	float: left;
+
+}
+
+.bodypad {
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+
+.boldtext {
+		font-weight: bold;
+}
+
+/* Grad Only */
+
+.spacemid10 {
+	 padding-right: 10px;
+}
+
+#setheightrowone {
+		height: 190px;
+}
+
+#setheightrowtwo {
+		height: 200px;
+}
+
+#setheightrowthree {
+		height: 230px;
+}
+/* End Grad */
+
+
+/* Paddings */
+.pad5 {
+	padding-left: 5px;
+}
+.pad5and5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.pad15 {
+	padding-left: 15px;
+}
+.pad0and5 {
+	padding-right: 5px;
+}
+.pad0and13 {
+	padding-right: 13px;
+}
+
+.pad15and10 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.pad30 {
+	padding-left: 30px;
+}
+
+.pad45 {
+	padding-left: 45px;
+}
+
+.pad0and15 {
+	padding-right: 15px;
+}
+
+.pad0and45 {
+	padding-right: 45px;
+}
+
+/* End Paddings */
+
+
+/* Boxes */
+.box230 {
+	background-image: url(images/box230bk.jpg);
+	width: 230px;
+}
+
+.box245 {
+	background-image: url(images/box245bk.jpg);
+	width: 245px;
+}
+.box270 {
+	background-image: url(images/box270bk.jpg);
+	width: 270px;
+}
+
+.box340mid {
+	background-image: url(images/box340bk.jpg);
+	width: 340px;
+}
+
+.box730mid {
+	background-image: url(images/box730bk.jpg);
+	width: 730px;	
+}
+
+
+.box650mid {
+	background-image: url(images/box650bk.jpg);
+	width: 650px;	
+}
+
+.shademeoffwhite {
+	border: 1px solid #BE9E2A;
+	background: #dbd5d1;
+}
+/* End Boxes */
+
+.floatleft
+{
+	float: left;
+}
+
+.imgfloatright {
+	float: right;
+	padding: 3px;
+	padding-left: 15px;
+}
+
+.imgcaptiongrey {
+	font-size: 10px;
+	text-align: center;
+	color: #3f4a50;
+}
+
+.imgcaptiongreybigger {
+	font-size: 11px;
+	color: #3f4a50;
+	margin-left: 15px;
+	
+}
+
+
+.sampletext {
+	font-size: 12px;
+	color: #3f4a50;
+}
+
+
+.bronze {
+	color: #908361;
+}
+
+/* Return to Top Grey Links */
+
+.returntotop {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 10px;
+}
+
+a:link.returntotop {
+	color:  #8e8065;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 10px;
+	background-image: url("images/returntotoparrow.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+a:visited.returntotop {
+	color:  #8e8065;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 10px;
+	background-image: url("images/returntotoparrow.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+a:hover.returntotop, a:active.returntotop {
+	color: #000;
+	text-decoration: underline;
+	font-weight: bold;
+	background-image: url("images/returntotoparrow.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.column230width {
+	float: left;
+	width: 230px;
+}
+
+/* Gallery */
+.gallerycaption2  {
+	padding: 5 5 5 5;
+	width: 200px;
+	font-weight: bold;
+	background: #efebe8;
+	border: 1px solid #938a61;
+}
+
+
+.gallerycaption {
+	color: #FFF;
+	background: #273746;
+	width: 500px;
+	padding: 10 10 10 10;
+	border: 1px solid #182634;
+}
+/* End Gallery */
+
+
+/* Bars */
+div.alphabar {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #9e985a;
+	font-weight: bold;
+}
+
+.shademegold {
+	background: url("images/goldshade.jpg");
+	padding-top: 3px;
+	margin-right: 3px;
+	*margin-right: 25px;
+	border: 1px solid #BE9E2A;
+}
+/* End bars */
+
+/* Faculty Directory */
+.profilethumb {
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.facnamecontainer {
+	float: left;
+	width: 280px;
+	*width: 285px;
+}
+
+.facresearchcontainer {
+	float: left;
+	width: 200px;
+}
+
+.faclabcontainer {
+	float: left;
+	width: 115px;
+	padding-right: 5px;
+	padding-left: 3px;
+}
+
+.facofficecontainer {
+	float: left;
+	width: 120px;
+	padding-right: 2px;
+}
+
+/* Directory */
+.slashcoverup {
+ color: #f6f6f4;
+}
+/* Fac Directory */
+div.dirfactitles {
+	width: 630px;
+	*width: 650px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding-left: 290px;
+}
+
+.diraoftitle {
+	float: left;
+	width: 145px;
+}
+.dirfaclab {
+	float: left;
+	padding-left: 50px;
+}
+.dirfacofficeaddress {
+	float: left;
+	padding-left: 85px;
+	*padding-left: 80px;
+}
+
+.dirfacphoneresint {
+	float: left;
+	width: 125px;
+}
+
+.fachidmark {
+		color: #f6f6f4;
+}
+
+.imgfloatleftpeople {
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #000;
+}
+/* Grad Directory */
+.dirgradtitles {
+	width: 530px;
+	*width: 690px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding-left: 380px;
+	*padding-left: 370px;
+}
+.dirgradproftitle {
+	float: left;
+	width: 145px;
+	*width: 190px;
+	padding-left: 35px;
+}
+.gradnamecontainer {
+	float: left;
+	width: 265px;
+	padding-right: 5px;
+}
+.dirgradedu {
+	float: left;
+	width: 115px;
+	padding-right: 5px;
+}
+.dirgradofficeaddress {
+	float: left;
+	width: 130px;
+	padding-left: 20px;
+}
+.diradvprof {
+	float: left;
+	width: 130px;
+	*width: 175px;
+	padding-left: 30px;
+}
+.gradname {
+}
+/* End Grad Directory */
+
+/* Staff Directory */
+.dirstafftitles {
+	width: 630px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding-left: 270px;
+}
+.dirstaffpostitle {
+	float: left;
+	width: 180px;
+	*width: 165px;
+}
+.dirstaffphonetitle {
+	float: left;
+	width: 130px;
+}
+.dirstaffofficetitle {
+	float: left;
+	width: 50px;
+}
+.staffnamecontainer {
+	float: left;
+	width: 265px;
+	padding-right: 5px;
+}
+.dirstaffpos {
+	float: left;
+	width: 170px;
+	padding-right: 10px;
+}
+.dirstaffphone {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+}
+.dirstaffoffice {
+	float: left;
+	*padding-left: 10px;
+}
+.staffname {
+}
+/* End Staff Directory */
+
+/* Research Staff Directory */
+.staffnameresearchcontainer {
+	float: left;
+	width: 265px;
+	padding-right: 5px;
+}
+.dirresearchtitles {
+	width: 630px;
+	*width: 650px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding-left: 270px;
+}
+.dirstaffresearchpostitle{
+	float: left;
+	width: 130px;
+	padding-right: 25px;
+}
+.dirstaffresearchproftitle {
+	float: left;
+	width: 80px;
+	padding-right: 10px;
+}
+.dirstaffresearchphonetitle {
+	float: left;
+	width: 150px;
+	padding-left: 35px;
+	*padding-left: 25px;
+}
+
+.dirstaffresearchpos {
+	float: left;
+	width: 150px;
+	padding-right: 15px;
+}
+.dirstaffresearchprof {
+	float: left;
+	width: 120px;
+	padding-right: 5px;
+}
+.dirstaffresearchphone {
+	float: left;
+	width: 150px;
+}
+/* Emeritus Direcotry */
+.diremtitles {
+	width: 730px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 35px
+}
+.dirememailtitle {
+	float: left;
+	width: 200px;
+	*width: 425px;
+	padding-left: 250px;
+}
+.diremphonetitle {
+	float: left;
+	width: 125px;
+	padding-right: 10px;
+}
+.diremofficetitle {
+	float: left;
+	width: 80px;
+	padding-right: 10px;
+}
+.diremname {
+	float: left;
+	width: 220px;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+.dirememail {
+	float: left;
+	width: 200px;
+	padding-right: 10px;
+
+}
+.diremphone {
+	float: left;
+	width: 130px;
+	padding-right: 10px;
+}
+.diremofficeaddress {
+	float: left;
+	width: 140px;
+}
+/* End Emeritus Directory */
+
+/* All People Directory */
+.dirppltitles {
+	width: 730px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+}
+.dirpplpos {
+	float: left;
+	width: 210px;
+	padding-left: 270px;
+}
+.dirppladdytitle {
+	float: left;
+	width: 100px;
+	padding-right: 10px;
+}
+.dirpplname {
+	float: left;
+	width: 250px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.dirppltitle {
+	float: left;
+	width: 190px;
+	padding-right: 10px;
+}
+.dirppladdy {
+	float: left;
+	width: 100px;
+	padding-right: 10px;
+}
+/* End People Directory */
+
+/* Grad Mentor Directory */
+.dirfacmentorresinttitle {
+	float: left;
+	width: 280px;
+	*width: 410px;
+	padding-left: 240px;
+	*padding-left: 255px;
+}
+/* End Grad Mentor Directory
+
+/* Research Interest Directory */
+.dirfacrestitles {
+	width: 730px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+}
+.dirfacresinttitle {
+	float: left;
+	width: 260px;
+	*width: 390px;
+	padding-left: 230px;
+	*padding-left: 245px;
+}
+.dirfacphoneresinttitle {
+	float: left;
+	width: 100px;
+	padding-right: 10px;
+	*padding-left: 90px;
+}
+.dirfacofficeresinttitle {
+	float: left;
+	padding-left: 15px;
+	*padding-left: 80px;
+}
+.facnamecontainerresint {
+	float: left;
+	width: 240px;
+	*width: 245px;
+}
+.facnameresint {
+	margin-left: 15px;
+	margin-right: 5px;
+}
+.facresearchcontainerresint {
+	float: left;
+	width: 230px;
+	padding-right: 15px;
+}
+.faclabcontainerresint {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+}
+
+.facofficecontainerresint {
+	float: left;
+	width: 100px;
+}
+/* End Research Interest Directory */
+
+/* Alumni Directory */
+.diralumnititles {
+	width: 730px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 18px;
+	float: left;
+}
+.diralumnigradyeartitle {
+	float: left;
+	width: 260px;
+	*width: 380px;
+	padding-left: 150px;
+}
+.diralumnidegreetitle {
+	float: left;
+	width: 30px;
+	padding-right: 0px;
+}
+.diralumniemailtitle {
+	float: left;
+	width: 100px;
+	padding-left: 85px;
+	*padding-left: 55px;
+}
+.diralumniprogramtitle {
+	float: left;
+	width: 50px;
+	padding-left: 130px;
+	*padding-left: 110px;
+}
+.diralumniname {
+	padding-left: 10px;
+	font-weight: bold;
+	float: left;
+	width: 240px;
+}
+.diralumnigradyear {
+	float: left;
+	width: 50px;
+	padding-left: 0px;
+}
+.diralumnidegree {
+	float: left;
+	width: 190px;
+	padding-left: 40px;
+}
+.diralumniemail {
+	float: left;
+	width: 180px;
+	*width: 220px;
+	padding-left: 20px;
+	*padding-left: 40px;
+}
+.diralumniprogram {
+	float: left;
+	width: 100px;
+	*width: 200px;
+	padding-left: 50px;
+	*padding-left: 80px;
+}
+/* End Alumni Directory */
+
+/* End Directory */
+/* Profiles */
+/* Faculty Profile */
+.contactcontainer {
+}
+/* End Faculty Profile */
+.imgfloatleftprofile {
+	float: left;
+	padding-right: 20px;
+	padding-top: 8px;
+	height: 270px;
+}
+/* End Profiles */
+
+/* Labs */
+.labimage {
+	float: left;
+	padding-left: 10px;
+}
+.labnameinfo {
+	float: left;
+}
+/* End Labs */
+
+
+/* Floats */
+.boxfloatright {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+/* End Floats */
+
+/* Widths */
+.width340 {
+	width: 340px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.width750 {
+	width: 750px;
+}
+
+/* End widths */
+
+
+/* Typefaces */
+.fontsize14 {
+	font-size: 14px;
+}
+/* End typefaces */
+
+/* General Public */
+#readmoreplant {
+	display: block;
+	height: 40px;
+	width: 260px;
+	background-image: url(images/research/generalpublic/planticons.jpg);
+	background-repeat: no-repeat;
+}
+a:link#readmoreplant {
+}	
+a:visited#readmoreplant {
+}	
+a:hover#readmoreplant, a:active#readmoreplant {
+	background-position: 0px -42px;
+}
+
+#readmorephotopamela{
+	display: block;
+	height: 40px;
+	width: 300px;
+	background-image: url(images/research/generalpublic/photoreceptorsicons.jpg);
+	background-repeat: no-repeat;
+}
+a:link#readmorephotopamela {
+}	
+a:visited#readmorephotopamela {
+}	
+a:hover#readmorephotopamela, a:active#readmorephotopamela {
+	background-position: 0px -42px;
+}
+.textalignleft {
+	text-align: left;
+}
+
+/* End General Public */
+
+/* Floats */
+
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+/* End Floats */
+
+/* Dept Info */
+.whotogoto {
+	padding: 0px 5px 3px 15px;
+}
+
+div.shademeinside {
+	border: 1px solid #BE9E2A;
+	width: 685px;
+	background: #f7f7f5;
+	padding: 0px 5px 0px 15px;
+}
+/* End Dept Info */
+
+/* You came from box */
+.youcamefrom {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 11px;
+	height: 10px;
+	border: 1px solid #c0b7a6;
+	background: #dad6cd;
+	background-image: url(images/youcameherebk.jpg);
+	background-repeat: repeat-x;
+	padding: 0px 2px 5px 2px;
+	*padding: 2px;
+	text-align: right;
+	margin-right: 10px;
+	color: #747474;
+	float: right;
+}
+
+.youcamefromlink {
+}
+
+a:link.youcamefromlink {
+	color: #747474;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited.youcamefromlink {
+	color: #747474;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover.youcamefromlink, a:active.youcamefromlink {
+	color: #000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/* Front Page Icons */
+#readmoreseminars {
+	display: block;
+	height: 51px;
+	width: 147px;
+	background-image: url(images/iconseminarcalendar.jpg);
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+}
+a:link#readmoreseminars, 
+a:visited#readmoreseminars {
+}	
+a:hover#readmoreseminars, a:active#readmoreseminars {
+	background-position: 0px -50px;
+}	
+
+#iconreadmorenews {
+	display: block;
+	height: 48px;
+	width: 350px;
+	background-image: url(images/iconreadmorenews.jpg);
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #efece7;
+	margin-top: 5px;
+	margin-left: -3px;
+	text-indent: -99999px;
+}
+a:link#iconreadmorenews, 
+a:visited#iconreadmorenews {
+	text-decoration: none;
+	
+}	
+a:hover#iconreadmorenews, a:active#iconreadmorenews  {
+	background-position: 0px -50px;
+}	
+
+#iconreadpub {
+	display: block;
+	height: 48px;
+	width: 350px;
+	background-image: url(images/iconreadpub.jpg);
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #efece7;
+	margin-top: 5px;
+	margin-left: -5px;
+	text-indent: -99999px;
+	
+}
+a:link#iconreadpub, a:visited#iconreadpub {
+	text-decoration: none;
+	
+}	
+a:hover#iconreadpub, a:active#iconreadpub  {
+	background-position: 0px -46px;
+}	
+#iconviewallpub {
+	display: block;
+	height: 52px;
+	width: 350px;
+	background-image: url(images/iconviewallpub.jpg);
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #efece7;
+	margin-top: 3px;
+	margin-left: -5px;
+	text-indent: -99999px;
+}
+a:link#iconviewallpub, a:visited#iconviewallpub {
+	text-decoration: none;
+	
+}	
+a:hover#iconviewallpub, a:active#iconviewallpub  {
+	background-position: 0px -50px;
+}	
+
+
+/* End Front Page Icons */
+
+
+.textalignleft {
+	text-align: left;
+}
+
+/* Calendar */
+.calendarcontain {
+	padding: 5 5 5 5;
+	width: 400px;
+	font-weight: normal;
+	background: #efebe8;
+	border: 1px solid #938a61;
+}
+
+.calendar {
+	background: #FFF;
+	text-align: center;
+
+}
+
+.calendartitle {
+	font-size: 16px;
+		font-weight: bold;
+}
+
+.linked-day {
+	text-align: center;
+}
+
+.popup {
+   position:absolute; 
+   left: 25; 
+   top: -100;
+   width: 300;
+   border: 2px solid #938a61;
+   border-left: 2px solid #c0b274;
+   border-top: 2px solid #c0b274;
+   background: white;
+   padding: 5px;
+   font-family: Arial;
+   font-size: 12pt;
+   visibility: hidden;
+}
+.normaltext {
+	font-weight: normal;
+}
+.caltitle {
+	padding: 0px;
+	margin: 0px;
+	font-family: Garamond, sans-serif;
+	font-size: 36px;
+	color: #071b2a;
+	font-weight: normal;
+	line-height: 28px;
+}
+.ical {
+}
+a:link.ical {
+	color: #334752;
+	text-decoration: NONE;
+}
+a:visited.ical{
+	color: #334752;
+	text-decoration: NONE;
+}
+a:hover.ical, a:active.ical {
+	color: #0c1721;
+	text-decoration: underline;
+}
+/* End Calendar */
+
+/* Wang PostDoc Ad */
+.wangpostdoc {
+		font-size: 20px;
+}
+
+a:link.wangpostdoc, a:visited.wangpostdoc, a:active.wangpostdoc {
+	color: blue;
+}
+
+a:hover.wangpostdoc {
+	color: purple;
+}
+/* end Ad */
+
+/* Faculty Recruitment */
+.facrec {
+	font-size: 12px;
+	border: 1px solid #485b6a;
+	background: #FFF;
+	margin-bottom: 5px;
+}
+
+.tdfacrec {
+	border-bottom: 1px solid #394c5b;
+}
+/* End Faculty Recruitment */
+
+.textcenter {
+	text-align: center;
+}
+
+/* Graduate Section */
+.gradtitles {
+	font-size: 16px;
+}
+.recomtextclass { display:none;}
+
+.facrecbox2 {
+        width: 900px;   
+        background: #f9f9f9;
+}
+
+table {
+        font-family: verdana,arial,sans-serif;
+        font-size:12px;
+        color: #333333;
+}
+
+table th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #a5aeb9;
+        background-color: #bccbde;
+}
+
+table td {
+        border-width: 1px;
+        padding: 8px;
+        padding-bottom: 7px;
+}
+
+tr:nth-child(odd)    {
+        background-color: #cec69f; 
+}
+
+tr:nth-child(even)    { 
+        background-color: #fff;
+}
+
+.facrecbox1 {
+        width: 900px;  
+        background: #f9f9f9;
+}
+
+th.rotate {
+  /* Something you can count on */
+  height: 160px;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+th.rotate > div {
+  transform:
+    /* Magic Numbers */
+  /*   translate(25px, 51px)
+ *       /* 45 is really 360 - 45 */
+    /* rotate(315deg);  */
+    rotate(270deg);
+   width: 30px;
+}
+
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 6px 3px;
+  padding-bottom: 9px;
+}
+
+/* These aren't needed and will be weird if transforms don't work */
+.csstransforms & th.rotate {
+  height: 140px;
+  white-space: nowrap;
+}
+
+div.navbar {
+        font-size: 11pt;
+        background-color: #566D7E;
+        border-bottom: 1px solid black;
+        width: 100%;
+}
+
+a.navlink {
+        color: #E0E0E0;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-right: 1px solid black;
+}
+
+a.navlink:hover {
+        color: #E0E0FF;
+        text-decoration: underline;
+}

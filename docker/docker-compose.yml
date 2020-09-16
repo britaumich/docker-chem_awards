@@ -1,0 +1,34 @@
+version: "3.2"
+services:
+  apache:
+    build: 
+      context: ./docker/apache
+      args:
+        APACHE_VERSION: ${APACHE_VERSION}
+    environment:
+      - HTTPS_METHOD=noredirect
+      - VirtualHost
+    ports:
+      - "80:80"
+    volumes:
+      - /usr/local/chem-awards/:/usr/local/chem-awards/
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    container_name: apache
+  php:
+    build:
+      context: ./docker/php
+      args:
+       PHP_VERSION: ${PHP_VERSION}
+    networks:
+      - backend
+    volumes:
+      - /usr/local/chem-awards/:/usr/local/chem-awards/
+    container_name: php
+networks:
+  frontend:
+  backend:
+

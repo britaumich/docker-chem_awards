@@ -1,0 +1,10 @@
+CosignProtected On
+AuthType Cosign
+Require valid-user
+CosignRequireFactor   UMICH.EDU
+
+Require ldap-group cn=ChemAllDept,ou=User Groups,ou=Groups,dc=umich,dc=edu
+
+
+ErrorDocument 500 /error.html
+ErrorDocument 404 /error.html
