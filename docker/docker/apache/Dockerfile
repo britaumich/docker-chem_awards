@@ -1,7 +1,7 @@
 ARG APACHE_VERSION=""
 FROM httpd:${APACHE_VERSION:+${APACHE_VERSION}-}alpine
 
-ENV APACHE_DOCUMENT_ROOT /usr/local/chem-awards/website/docs
+ENV APACHE_DOCUMENT_ROOT /Users/rsmoke/chem_awards/website/docs
 
 RUN apk update; \
     apk upgrade;
