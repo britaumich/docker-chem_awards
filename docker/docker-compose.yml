@@ -11,7 +11,7 @@ services:
     ports:
       - "8084:80"
     volumes:
-      - ${PROJECT_ROOT}:${PROJECT_ROOT}
+      - /Users/rsmoke/chem_awards/:/Users/rsmoke/chem_awards/
     depends_on:
       - php
     networks:
@@ -26,7 +26,7 @@ services:
     networks:
       - backend
     volumes:
-      - ${PROJECT_ROOT}:${PROJECT_ROOT}
+      - /Users/rsmoke/chem_awards/:/Users/rsmoke/chem_awards/
     container_name: php
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
