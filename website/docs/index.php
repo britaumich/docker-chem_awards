@@ -15,17 +15,15 @@
 <div align="center"><br><br><h1>Chemistry Awards<br></h1><br>
 <bR><div align="center"><img src="images/linecalendarpopup500.jpg"></div><Br>
 <?php
-echo ($_SERVER["DOCUMENT_ROOT"]);
+//echo ($_SERVER["DOCUMENT_ROOT"]);
 //require_once($_SERVER["DOCUMENT_ROOT"] . '../support/awards_dbConnect.inc');
-include($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+include('awards-config.php');
 
 
 //$uniqname1 = $_SERVER['REMOTE_USER'];
 
 // $uniqname1 = $_SERVER['REDIRECT_REMOTE_USER'];
-echo "br";
-echo ("uniqname: ");
-echo $uniqname1;
+
 if (is_admin($uniqname1)) {
 ?>
 <form action="admin/allawards.php">

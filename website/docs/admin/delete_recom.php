@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 $uniqname = $purifier->purify($_REQUEST['uniqname']);
 
 if (isset($_REQUEST['id']) && is_numeric($_REQUEST['id'])) {

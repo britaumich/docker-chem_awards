@@ -19,7 +19,7 @@ th {text-align: left;}
 
 <?php
 $q = intval($_GET['q']);
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 //$q = $purifier->purify($_GET['q']);
 
 

@@ -10,7 +10,7 @@
 
 <body>
 <?php 
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 require_once('nav.php');
  
 $order = " ORDER BY Name";
@@ -46,7 +46,7 @@ echo "Rank: <select name='Rank'>";
 if (mysqli_num_rows($resultrank) != 0) {
      while ( $ranks = mysqli_fetch_array($resultrank, MYSQLI_BOTH) ) {
            echo "<option";
-           if ($ranks[id] == $rank) { echo " selected"; }
+           if ($ranks['id'] == $rank) { echo " selected"; }
            echo " value=$ranks[id]>$ranks[rank]</option>";
      }
      echo "</select><br>";

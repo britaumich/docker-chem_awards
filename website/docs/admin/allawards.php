@@ -10,7 +10,7 @@
 
 <body>
 <?php 
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 require_once('nav.php');
 
 $sort = $purifier->purify($_REQUEST['sort']); 
@@ -103,7 +103,7 @@ echo ('<input type="submit" name="remove" value="Delete Awards">');
         while ($typelist = mysqli_fetch_array($result, MYSQLI_BOTH))
         {
            echo "<option";
-           if ($typelist[type] == $type) { echo " selected"; } 
+           if ($typelist['type'] == $type) { echo " selected"; }
            echo " value=$typelist[type]>$typelist[type]</option>";
         }
     echo "</select><br>";
@@ -118,7 +118,7 @@ echo "<select name='month'>";
 echo "<option select value='%'> - pick all  -</option>";
 while ($months = mysqli_fetch_array($resm, MYSQLI_BOTH)) {
            echo "<option";
-           if ($months[due_month] == $month) { echo " selected"; }
+           if ($months['due_month'] == $month) { echo " selected"; }
            echo " value='$months[due_month]'>$months[due_month]</option>";
 }
 echo "</select>";
@@ -157,7 +157,7 @@ if (mysqli_num_rows($result) != 0) {
         while ($tags = mysqli_fetch_array($result, MYSQLI_BOTH))
         {
            echo "<option";
-           if ($tags[id] == $tag) { echo " selected"; } 
+           if ($tags[id] == $tag) { echo " selected"; }
            echo " value=$tags[id]>$tags[tag]</option>";
         }
     echo "</select>";
@@ -174,7 +174,7 @@ if (mysqli_num_rows($result) != 0) {
         while ($eligibility = mysqli_fetch_array($result, MYSQLI_BOTH))
         {
            echo "<option";
-           if ($eligibility['id'] == $eligable) { echo " selected"; } 
+           if ($eligibility['id'] == $eligable) { echo " selected"; }
            echo " value=$eligibility[id]>$eligibility[name]</option>";
         }
     echo "</select>";

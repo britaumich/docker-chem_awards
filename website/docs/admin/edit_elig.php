@@ -40,7 +40,7 @@ function renderForm($id, $name, $error)
  <?php
  }  // function
 ob_start();
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 require_once('nav.php');
 
 if (isset($_REQUEST['submit'])) {

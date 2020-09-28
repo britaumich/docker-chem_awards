@@ -20,7 +20,7 @@ th {text-align: left;}
 
 <?php
 //$q = intval($_GET['q']);
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 $year = $purifier->purify($_GET['q']);
 $uniqname = $purifier->purify($_REQUEST['uniqname']);
 

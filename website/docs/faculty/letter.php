@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php  
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.inc');
+require_once('../awards-config.php');
 require_once('nav.php');
 $errorid = $purifier->purify($_REQUEST['errorid']);
 
@@ -23,7 +23,7 @@ echo $recomtext;
    echo "<h1>Thanks</h1>";
 exit;
 }
-if(isset($_POST[submit])) {
+if(isset($_POST['submit'])) {
 
       $replacefile = $purifier->purify($_REQUEST['replacefile']);
       $uniqname = $purifier->purify($_REQUEST['uniqname']);

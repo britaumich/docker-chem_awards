@@ -2,7 +2,7 @@ version: "3.2"
 services:
   apache:
     build: 
-      context: ./docker/apache
+      context: ./apache
       args:
         APACHE_VERSION: ${APACHE_VERSION}
     environment:
@@ -20,7 +20,7 @@ services:
     container_name: apache
   php:
     build:
-      context: ./docker/php
+      context: ./php
       args:
        PHP_VERSION: ${PHP_VERSION}
     networks:

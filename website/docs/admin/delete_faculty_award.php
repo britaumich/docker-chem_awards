@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER["DOCUMENT_ROOT"] . '/../support/awards_dbConnect.php');
+require_once('../awards-config.php');
 $award_id = $purifier->purify($_REQUEST['award_id']);
 $table = $purifier->purify($_REQUEST['table']);
 
